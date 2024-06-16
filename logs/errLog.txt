@@ -1,0 +1,35 @@
+20240611	22:27:35	86709ccd-2faa-47d2-873e-9af5a710600b	Error : problem
+20240611	22:29:59	c7eabc90-4af0-4750-acae-b890e61f6b3b	ValidationError : User validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required., username: Path `username` is required., fullname: Path `fullname` is required.
+20240611	22:30:50	dd4aad02-fa06-45be-972a-02b767bf43d2	ValidationError : User validation failed: role: Path `role` is required., password: Path `password` is required., email: Path `email` is required., username: Path `username` is required., fullname: Path `fullname` is required.
+20240612	18:25:15	8e38e447-e48f-4255-8380-8fa7bba602bd	ValidationError : User validation failed: role: Path `role` is required., email: aa is not a valid email
+20240612	18:25:56	8e9da2cc-313f-4b03-8841-048d2230a28d	ValidationError : User validation failed: email: aa is not a valid email
+20240612	18:26:05	736475da-8080-4608-8294-ade17a55d7fb	ValidationError : User validation failed: email: test@test is not a valid email
+20240612	18:26:16	c566ab17-c3c9-4308-be5a-ee63243e65a0	TypeError : next is not a function
+20240612	18:31:20	1d277a3a-1e44-40a1-b4ae-2f63c85629fa	TypeError : next is not a function
+20240612	20:45:41	6919fbf0-7cc9-4598-8352-774f7402ec53	Error : Cannot set headers after they are sent to the client
+20240613	18:50:01	01bbea98-9def-4d41-b1ce-fca870a1ed04	JsonWebTokenError : jwt must be provided
+20240613	18:50:10	719216f2-17fc-4ee1-8f07-125db53e2db6	JsonWebTokenError : jwt must be provided
+20240613	18:52:37	c5f475a8-874c-4c50-85d9-90a149fdd860	JsonWebTokenError : jwt must be provided
+20240614	16:01:15	3edc2a0c-9eb2-4884-bd29-065f72a0289f	TypeError : Cannot create property 'voters' on number '0'
+20240614	16:01:16	2eb0b1b0-e295-40ad-8ab7-aca18fcce0b8	TypeError : Cannot create property 'voters' on number '0'
+20240614	16:02:47	1ba7c930-5536-495a-a11d-68dfae45e659	TypeError : Cannot create property 'voters' on number '0'
+20240614	16:17:02	f1ac7044-0bb8-4745-9da2-048420c47d5c	TypeError : Cannot read properties of undefined (reading 'equals')
+20240614	17:10:38	efdbf160-c6a4-4024-971b-da2745b8901e	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:13:06	6b7faa3c-7318-4b4a-bf0c-959b114893e3	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:15:04	082529a6-a062-433c-a99a-785924744e22	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:15:06	e01a710f-fb85-483d-834f-e43386a6cbbd	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:18:32	726d0a65-866a-43e9-b281-2c44949573cc	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:18:35	4fd0e746-4824-4c70-8b93-619f3a62eb95	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:20:19	1c5ab581-1ca4-47f2-9840-b0ebf655fd57	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:23:52	bb4444b9-3c55-4ac2-8cf5-34d9362cec19	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:25:02	b877f021-db1a-4270-8e1d-21692d207e67	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:25:37	13f3426a-3578-47bf-8265-d7541c76177f	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	17:30:39	4f1a4f88-c63d-451d-8048-9a478c2822e4	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	20:54:03	81d2f103-d1ee-43d5-a809-d3302e63dd78	CastError : Cast to ObjectId failed for value "sorted" (type string) at path "_id" for model "Feedback"
+20240614	21:22:22	b289dbca-f4c6-4435-9c95-661561f2ca1b	ValidationError : Feedback validation failed: status: `UI/UX` is not a valid enum value for path `status`.
+20240614	22:23:19	9c2b7270-d3ca-4cbd-a391-66c7b3e6da4a	SyntaxError : Unexpected token c in JSON at position 79
+20240615	12:04:06	946cbc5d-6836-40a2-94bb-5f582046205b	ValidationError : Comment validation failed: content: Cast to string failed for value "{ content: 'first reply' }" (type Object) at path "content"
+20240616	16:51:46	1b8af1a0-a01a-489b-9d1d-8f6e2377a0e9	ValidationError : User validation failed: resetToken.token: Cast to Number failed for value "03e646eb0294859bfea680a2a995009076a8b6bb" (type string) at path "resetToken.token"
+20240616	17:01:09	b33c1b2e-90f4-44eb-b721-a82f606c697e	ValidationError : User validation failed: password: password should contain at least 6 characters
+20240616	17:03:04	1d63f452-73c8-4eef-8852-6a297a005c0c	ValidationError : User validation failed: password: password should contain at least 3 characters
+20240616	17:39:12	9f597b81-e658-4563-a47b-1989ff60ffd7	TypeError : res.staus is not a function
