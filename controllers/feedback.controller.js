@@ -23,7 +23,15 @@ const addFeedback = async (req,res,next) => {
 
 const allFeedbacks = async (req,res,next) => {
    try {
-      const all = await Feedback.find() ;
+      const all = await Feedback.find()
+      .populate({
+         path: 'comments',
+         populate: {
+           path: 'replies',
+           model: 'Comment' 
+         }
+       }) ;
+     
       if(!all) res.sendStatus(204) ;
       else res.status(200).json({feedbacks : all}) ;
    }catch(error) {
@@ -35,7 +43,15 @@ const getFeedback = async (req,res,next) => {
    try {
       if(!req.params?.id) return res.sendStatus(404) ;
       const _id = req.params.id ;
-      const feedback = await Feedback.findOne({_id}).exec() ;
+      const feedback = await Feedback.findOne({_id})
+      .populate({
+         path: 'comments',
+         populate: {
+           path: 'replies',
+           model: 'Comment' 
+         }
+       })
+     .exec() ;
       if(!feedback) res.sendStatus(404) ;
       else res.status(200).json(feedback) ;
    }catch(error) {

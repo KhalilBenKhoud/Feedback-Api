@@ -33,3 +33,5 @@
 20240616	17:01:09	b33c1b2e-90f4-44eb-b721-a82f606c697e	ValidationError : User validation failed: password: password should contain at least 6 characters
 20240616	17:03:04	1d63f452-73c8-4eef-8852-6a297a005c0c	ValidationError : User validation failed: password: password should contain at least 3 characters
 20240616	17:39:12	9f597b81-e658-4563-a47b-1989ff60ffd7	TypeError : res.staus is not a function
+20240618	16:41:19	33df13d0-a3d6-4d60-a71a-4e7a2dfc924f	StrictPopulateError : Cannot populate path `replies` because it is not in your schema. Set the `strictPopulate` option to false to override.
+20240618	16:46:26	638ddfea-83c4-45ab-b58b-679c2a07a19d	StrictPopulateError : Cannot populate path `replies` because it is not in your schema. Set the `strictPopulate` option to false to override.
